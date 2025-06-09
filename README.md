@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/0160ef99-32fc-4547-a0e5-f678f3a660a1)
+
 # COVID-19 Data AI Project
 
 ## What It Is
