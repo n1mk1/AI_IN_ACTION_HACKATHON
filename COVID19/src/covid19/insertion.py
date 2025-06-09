@@ -4,7 +4,7 @@ from pathlib import Path
 from datetime import datetime
 
 # MongoDB setup
-client = MongoClient("mongodb+srv://as:123@cluster0.7nmgzr1.mongodb.net/")
+client = MongoClient("mongodb+srv://as:<pass>@cluster0.7nmgzr1.mongodb.net/")
 db = client["CovidDB"]
 collection = db["CovidCases"]
 
