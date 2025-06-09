@@ -49,4 +49,4 @@ for doc in records:
 # Insert into MongoDB
 collection.insert_many(cleaned_records)
 
-print(f"✅ Inserted {len(cleaned_records)} records into MongoDB.")
+print(f"Inserted {len(cleaned_records)} records into MongoDB.")
