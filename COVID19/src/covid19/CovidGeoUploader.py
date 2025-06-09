@@ -88,7 +88,7 @@ class CovidGeoUploader:
 if __name__ == "__main__":
     uploader = CovidGeoUploader(
         csv_filename="COVID19 cases.csv",
-        atlas_uri="mongodb+srv://as:123@cluster0.7nmgzr1.mongodb.net/",
+        atlas_uri="mongodb+srv://as:<pass>@cluster0.7nmgzr1.mongodb.net/",
         db_name="CovidDB",
         collection_name="Neighbourhoods"
     )
