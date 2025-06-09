@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 
-ATLAS_URI = "mongodb+srv://as:123@cluster0.7nmgzr1.mongodb.net/"
+ATLAS_URI = "mongodb+srv://as:<pass>@cluster0.7nmgzr1.mongodb.net/"
 DB_NAME = "CovidDB"
 COLLECTION_NAME = "CovidCases"
 
