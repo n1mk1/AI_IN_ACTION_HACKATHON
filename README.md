@@ -42,7 +42,7 @@ An AI-powered dashboard that:
    - User authentication
 
 ## Progress
-Data Pipeline: [██████████] 100%
-Core Dashboard: [████████░░] 80%
-AI Integration: [███░░░░░░░] 30%
-Deployment Ready: [██░░░░░░░░] 20%
+- Data Pipeline: [██████████] 100%
+- Core Dashboard: [████████░░] 80%
+- AI Integration: [███░░░░░░░] 30%
+- Deployment Ready: [██░░░░░░░░] 20%
