@@ -13,7 +13,7 @@ mapbox_token = os.getenv("MAPBOX_TOKEN")
 px.set_mapbox_access_token(mapbox_token)
 
 # MongoDB setup
-ATLAS_URI = "mongodb+srv://as:123@cluster0.7nmgzr1.mongodb.net/"
+ATLAS_URI = "mongodb+srv://as:<pass>@cluster0.7nmgzr1.mongodb.net/"
 DB_NAME = "CovidDB"
 NEIGHBOURHOODS_COL = "Neighbourhoods"
 CASES_COL = "CovidCases"

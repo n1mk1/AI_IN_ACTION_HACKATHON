@@ -3,7 +3,7 @@ from sentence_transformers import SentenceTransformer
 import numpy as np
 
 # Setup
-client = pymongo.MongoClient("mongodb+srv://as:123@cluster0.7nmgzr1.mongodb.net/")
+client = pymongo.MongoClient("mongodb+srv://as:<pass>@cluster0.7nmgzr1.mongodb.net/")
 db = client["CovidDB"]
 collection = db["CovidCases"]
 model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
