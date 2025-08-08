@@ -1,0 +1,16 @@
+{
+  "database": "CovidDB",
+  "collectionName": "CovidCases",
+  "type": "vectorSearch",
+  "name": "vector_index-v2",
+    "fields": [
+      {
+        "type": "vector",
+        "path": "embeddings",
+        "numDimensions": 1024,
+        "similarity": "cosine"
+      }
+   ]
+}
+
+
